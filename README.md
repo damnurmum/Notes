@@ -1,4 +1,4 @@
-# Notes
+# notes
 This is a fork of the [noteterminal](https://github.com/h99developer/noteterminal).
 
 # Preview
