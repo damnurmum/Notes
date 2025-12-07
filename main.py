@@ -4,7 +4,6 @@ import asyncio
 
 asyncio.run(createtables())
 
-
 async def selectnote():
     answer = input("\nВыберите вашу заметку, чтобы посмотреть содержание заметки/удалить заметку: ")
 
@@ -39,10 +38,6 @@ async def mynotes():
 
     await selectnote()
 
-
-
-
-    
 async def createnote():
     title = input("Введите заголовок заметки - ")
     description = input("Введите содержание заметки - ")
@@ -83,8 +78,5 @@ async def main():
 
         elif answer == 3:
             await searchnotes()
-
-
-                        
-            
+  
 asyncio.run(main())
